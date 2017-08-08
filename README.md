@@ -1,5 +1,5 @@
 # 基于websocket的聊天室
-@ (WebSocket)[|Vue|Nodejs]
+
 ## WebSocket 
 服务器端是基于nodejs实现的，使用了nodejs-websocket模块创建服务，当收到消息时调用broadcast函数发送给所有当前已连接的用户。
 ``` javascript
